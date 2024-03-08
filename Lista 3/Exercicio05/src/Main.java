@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Main {
@@ -7,10 +8,10 @@ public class Main {
         System.out.print("Digite um número para calcular o fatorial: ");
         int numero = scanner.nextInt();
 
-        long fatorial = 1;
+        BigInteger fatorial = BigInteger.ONE;
 
         for (int i = 1; i <= numero; i++) {
-            fatorial *= i;
+            fatorial = fatorial.multiply(BigInteger.valueOf(i));
         }
 
         System.out.println("O fatorial de " + numero + " é: " + fatorial);

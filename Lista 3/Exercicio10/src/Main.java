@@ -10,10 +10,10 @@ public class Main {
         int termoAnterior = 0;
         int termoAtual = 1;
 
-        System.out.print("Sequência de Fibonacci até o termo " + n + ": ");
+        System.out.println("Sequência de Fibonacci até o termo " + n + ": ");
 
         for (int i = 1; i <= n; i++) {
-            System.out.print(termoAnterior + " ");
+            System.out.println(termoAnterior + " ");
 
             int proximoTermo = termoAnterior + termoAtual;
             termoAnterior = termoAtual;
