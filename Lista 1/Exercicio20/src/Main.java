@@ -10,7 +10,6 @@ public class Main {
         System.out.print("Digite a segunda raiz (x2): ");
         double x2 = scanner.nextDouble();
 
-        // Calcula os coeficientes a, b e c
         double a = 1;
         double b = -(x1 + x2);
         double c = x1 * x2;

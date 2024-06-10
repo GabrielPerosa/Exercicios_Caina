@@ -8,7 +8,6 @@ public class Main {
                 {35, 45, 55, 65, 75}
         };
 
-        // Exibindo a diagonal principal
         System.out.println("Diagonal Principal:");
         for (int i = 0; i < matriz.length; i++) {
             System.out.print(matriz[i][i] + " ");

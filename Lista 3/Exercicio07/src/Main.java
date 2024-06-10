@@ -8,7 +8,7 @@ public class Main {
                 System.out.println(numero + " x " + i + " = " + resultado);
             }
 
-            System.out.println(); // Adiciona uma linha em branco entre as tabuadas
+            System.out.println();
         }
     }
 }

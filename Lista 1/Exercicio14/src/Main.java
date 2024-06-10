@@ -10,7 +10,6 @@ public class Main {
         System.out.print("Digite o valor da altura do triângulo retângulo: ");
         double altura = scanner.nextDouble();
 
-        // Calcula a área do triângulo retângulo usando a fórmula: base * altura / 2
         double area = (base * altura) / 2;
 
         System.out.println("A área do triângulo retângulo é: " + area);

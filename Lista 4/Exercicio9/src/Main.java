@@ -8,7 +8,7 @@ public class Main {
                 {35, 45, 55, 65, 75}
         };
 
-        // Exibindo a diagonal secundária
+
         System.out.println("Diagonal Secundária:");
         for (int i = 0; i < matriz.length; i++) {
             System.out.print(matriz[i][matriz.length - 1 - i] + " ");

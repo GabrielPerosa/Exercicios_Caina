@@ -10,9 +10,8 @@ public class Main {
         System.out.print("Digite o segundo número: ");
         double n2 = scanner.nextDouble();
 
-        double result = n1+n2;
+        double media = (n1+n2)/2;
 
-        double media = result/2;
         //A se a média >= 8.5• B se a média >= 7 e média < 8.5• C se a média >= 5 e média < 7• D se a média < 5
 
         if (media>=8.5){

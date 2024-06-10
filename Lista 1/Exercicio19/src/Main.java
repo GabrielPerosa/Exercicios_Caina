@@ -26,7 +26,6 @@ public class Main {
             double x = -b / (2 * a);
             System.out.println("A solução real é: x = " + x);
         } else {
-            // Nenhuma solução real (soluções imaginárias)
             System.out.println("A equação não possui soluções reais.");
         }
     }

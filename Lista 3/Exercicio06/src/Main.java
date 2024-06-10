@@ -14,7 +14,6 @@ public class Main {
         for (int i = n1; i <= n2; i++) {
             numerosNoIntervalo.append(i).append(" ");
         }
-
         System.out.println(numerosNoIntervalo.toString());
     }
 }

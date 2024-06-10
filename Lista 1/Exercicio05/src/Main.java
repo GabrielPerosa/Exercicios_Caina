@@ -4,8 +4,7 @@ import java.lang.Math;
 public class Main {
     public static void main(String[] args) {
 
-        double km;
-        double metros;
+        double km, metros;
 
         Scanner in = new Scanner(System.in);
         System.out.println(" Qual a velocidade de Km/h : ");

@@ -14,7 +14,6 @@ public class Main {
         }
     }
 
-    // Função para verificar se um número é primo
     private static boolean Primo(int num) {
         if (num <= 1) {
             return false;
